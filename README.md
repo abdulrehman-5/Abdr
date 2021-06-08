@@ -15,6 +15,7 @@
  - To check if you have the buildpack installed you can use
 ```bash
    heroku run bash
+   -m pip install --upgrade pip
    apt --help
 ```
  - If it shows the help, that means you have the buildpack for apt installed
